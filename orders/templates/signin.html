@@ -1,0 +1,43 @@
+<!--Rafael Alejandor Valencia Ramos-->
+<!--Menu de pizzeria para realizar compras-->
+
+{% extends "layout.html" %}
+{% block body %}
+<div class=' mx-auto w-50 p-1'>
+    
+    {% if message %}
+    <div class='text-center text-danger'>
+        {{message}}
+    </div>
+    {% endif %}
+    <form class='m-1' action="{% url 'signin' %}" method="POST">
+        {% csrf_token %}
+ 
+        <div class="form-group">
+            <label for="username">Nombre:</label>
+            <input type="text" class="form-control" name="first_name">
+        </div>
+        <div class="form-group">
+            <label for="username">Apellido:</label>
+            <input type="text" class="form-control" name="last_name">
+        </div>
+        <div class="form-group">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" class="form-control" name="username">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Repetir Contraseña:</label>
+            <input type="password" class="form-control" name="password2">
+        </div>
+        <button type="submit" class="btn btn-success">Registrarse</button>
+    </form>
+</div>
+{% endblock %}

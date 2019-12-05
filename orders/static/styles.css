@@ -1,0 +1,57 @@
+#pizza_background {
+    position: absolute;
+    z-index:-99;
+}
+
+#bt_comf{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*lateral derecha*/
+#checkout {
+    color:rgb(0, 184, 31);
+   margin-top: -250px;
+    top:33%;
+    right:0%;
+    width:23%;
+}
+
+
+.plus:hover {
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+#my_orders_container {
+    background-color: rgba(4, 65, 9, 0.548);
+    color: white;
+}
+
+
+.pizza2{
+
+    margin-top: 30px;
+
+}
+
+
+
+.container div img {
+
+    width: 500px;
+    display:block;
+    margin:auto;
+    
+}
