@@ -2,25 +2,24 @@
 
 Web Programming with Python and JavaScript
 
-Este proyecto consta 
+This project have 
 
-En este proyecto se hace un sistema que permita pedir pizza de manera online,
-esta hecho con django, bootstrap, python. 
+This project develop a system that allow order a many types of pizza online
+the project uses django, bootstrap, python. 
 
-Conta de 7 htmls:
+It have 7 htmls:
 - index.hmlt 
 - login.html 
 - signin.html 
 - menu.html 
 - layout.html
 - my_orders.html 
-- orders_manager.html -> muestra la lista de todos los modelos de models.py el quecontiene
-la estructura de los datos. 
+- orders_manager.html -> show the lst of all models in the models.py that have the data structure. 
 
-ademas, estan los archivos:  
+also exist the files:  
 - extends 
-- urls.py -> contiene la ruta de las funciones
-- views.py -> contiene el programa principal y funciones que renderizan los html
+- urls.py -> have the route of the funtions 
+- views.py -> is the main program and the html render funtions
 
 En la carpeta static: esta la hoja de estilos y las imagenes utilizadas en el proyecto 
 
